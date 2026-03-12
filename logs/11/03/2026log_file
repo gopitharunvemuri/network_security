@@ -1,0 +1,159 @@
+[ 2026-03-11 00:09:55,249 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=7, read=6, redirect=7, status=7)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:10:03,921 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=6, read=6, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:10:16,879 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=5, read=6, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:10:41,212 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:10:50,336 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:11:03,364 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:11:23,535 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:11:57,921 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:14:48,342 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:14:56,846 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:15:09,267 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:15:29,412 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:16:05,761 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:17:14,317 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:22:01,159 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:22:09,965 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:22:22,229 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:22:42,350 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:23:19,146 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:24:27,265 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:26:31,362 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:27:18,573 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:27:27,243 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/experiments/get-by-name?experiment_name=my_experiment
+[ 2026-03-11 00:27:53,841 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[ 2026-03-11 00:27:54,934 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[ 2026-03-11 00:27:56,163 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-11 00:27:56,167 ] 107 dagshub - INFO - Accessing as gopitharunvemuri
+[ 2026-03-11 00:27:56,983 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/gopitharunvemuri/network_security "HTTP/1.1 200 OK"
+[ 2026-03-11 00:27:58,121 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-11 00:27:58,124 ] 107 dagshub - INFO - Initialized MLflow to track repo "gopitharunvemuri/network_security"
+[ 2026-03-11 00:27:58,125 ] 107 dagshub - INFO - Repository gopitharunvemuri/network_security initialized!
+[ 2026-03-11 00:27:58,125 ] 17 root - INFO - Initiate the data ingestion
+[ 2026-03-11 00:28:00,409 ] 56 root - INFO - The data has divided into train and test
+[ 2026-03-11 00:28:00,409 ] 57 root - INFO - The data is saving in respective folders
+[ 2026-03-11 00:28:00,485 ] 63 root - INFO - The data has been saved to respective paths
+[ 2026-03-11 00:28:00,519 ] 22 root - INFO - Initiate the data validation
+[ 2026-03-11 00:28:00,569 ] 30 root - INFO - Required number of columns:31
+[ 2026-03-11 00:28:00,569 ] 31 root - INFO - Data frame has columns:31
+[ 2026-03-11 00:28:00,569 ] 35 root - INFO - Required number of numerical columns:31
+[ 2026-03-11 00:28:00,569 ] 36 root - INFO - Data frame has numerical columns:31
+[ 2026-03-11 00:28:00,570 ] 30 root - INFO - Required number of columns:31
+[ 2026-03-11 00:28:00,570 ] 31 root - INFO - Data frame has columns:31
+[ 2026-03-11 00:28:00,570 ] 35 root - INFO - Required number of numerical columns:31
+[ 2026-03-11 00:28:00,570 ] 36 root - INFO - Data frame has numerical columns:31
+[ 2026-03-11 00:28:00,714 ] 24 root - INFO - Data validation is completed
+[ 2026-03-11 00:28:00,715 ] 28 root - INFO - Initiate the data transformation
+[ 2026-03-11 00:28:00,715 ] 49 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-03-11 00:28:00,715 ] 51 root - INFO - Starting data transformation
+[ 2026-03-11 00:28:00,739 ] 66 root - INFO - fit on the train and test data
+[ 2026-03-11 00:28:00,751 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 00:28:00,754 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 00:28:00,754 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 00:28:00,756 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 00:28:00,757 ] 30 root - INFO - Data transformation is completed
+[ 2026-03-11 00:28:00,757 ] 34 root - INFO - Initiate the model trainer
+[ 2026-03-11 00:32:02,401 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 00:32:02,401 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 00:32:02,402 ] 108 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9911791544154922, precision_score=0.988873153955088, recall_score=0.9934959349593496), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9744, precision_score=0.9643705463182898, recall_score=0.98464025869038))
+[ 2026-03-11 00:32:02,407 ] 36 root - INFO - Model training completed
+[ 2026-03-11 19:54:03,186 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-11 19:54:03,489 ] 107 dagshub - INFO - Accessing as gopitharunvemuri
+[ 2026-03-11 19:54:05,073 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/gopitharunvemuri/network_security "HTTP/1.1 200 OK"
+[ 2026-03-11 19:54:06,477 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-11 19:54:06,480 ] 107 dagshub - INFO - Initialized MLflow to track repo "gopitharunvemuri/network_security"
+[ 2026-03-11 19:54:06,482 ] 107 dagshub - INFO - Repository gopitharunvemuri/network_security initialized!
+[ 2026-03-11 19:54:06,482 ] 17 root - INFO - Initiate the data ingestion
+[ 2026-03-11 19:54:11,889 ] 56 root - INFO - The data has divided into train and test
+[ 2026-03-11 19:54:11,889 ] 57 root - INFO - The data is saving in respective folders
+[ 2026-03-11 19:54:11,950 ] 63 root - INFO - The data has been saved to respective paths
+[ 2026-03-11 19:54:11,974 ] 22 root - INFO - Initiate the data validation
+[ 2026-03-11 19:54:12,068 ] 30 root - INFO - Required number of columns:31
+[ 2026-03-11 19:54:12,068 ] 31 root - INFO - Data frame has columns:31
+[ 2026-03-11 19:54:12,069 ] 35 root - INFO - Required number of numerical columns:31
+[ 2026-03-11 19:54:12,069 ] 36 root - INFO - Data frame has numerical columns:31
+[ 2026-03-11 19:54:12,069 ] 30 root - INFO - Required number of columns:31
+[ 2026-03-11 19:54:12,069 ] 31 root - INFO - Data frame has columns:31
+[ 2026-03-11 19:54:12,069 ] 35 root - INFO - Required number of numerical columns:31
+[ 2026-03-11 19:54:12,069 ] 36 root - INFO - Data frame has numerical columns:31
+[ 2026-03-11 19:54:12,251 ] 24 root - INFO - Data validation is completed
+[ 2026-03-11 19:54:12,252 ] 28 root - INFO - Initiate the data transformation
+[ 2026-03-11 19:54:12,252 ] 49 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-03-11 19:54:12,252 ] 51 root - INFO - Starting data transformation
+[ 2026-03-11 19:54:12,277 ] 66 root - INFO - fit on the train and test data
+[ 2026-03-11 19:54:12,290 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 19:54:12,292 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 19:54:12,292 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 19:54:12,295 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 19:54:12,295 ] 30 root - INFO - Data transformation is completed
+[ 2026-03-11 19:54:12,296 ] 34 root - INFO - Initiate the model trainer
+[ 2026-03-11 19:58:43,672 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-11 19:58:43,676 ] 107 dagshub - INFO - Accessing as gopitharunvemuri
+[ 2026-03-11 19:58:44,857 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/gopitharunvemuri/network_security "HTTP/1.1 200 OK"
+[ 2026-03-11 19:58:45,957 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-11 19:58:45,959 ] 107 dagshub - INFO - Initialized MLflow to track repo "gopitharunvemuri/network_security"
+[ 2026-03-11 19:58:45,960 ] 107 dagshub - INFO - Repository gopitharunvemuri/network_security initialized!
+[ 2026-03-11 19:58:45,961 ] 17 root - INFO - Initiate the data ingestion
+[ 2026-03-11 19:58:47,509 ] 56 root - INFO - The data has divided into train and test
+[ 2026-03-11 19:58:47,510 ] 57 root - INFO - The data is saving in respective folders
+[ 2026-03-11 19:58:47,570 ] 63 root - INFO - The data has been saved to respective paths
+[ 2026-03-11 19:58:47,575 ] 22 root - INFO - Initiate the data validation
+[ 2026-03-11 19:58:47,626 ] 30 root - INFO - Required number of columns:31
+[ 2026-03-11 19:58:47,626 ] 31 root - INFO - Data frame has columns:31
+[ 2026-03-11 19:58:47,627 ] 35 root - INFO - Required number of numerical columns:31
+[ 2026-03-11 19:58:47,627 ] 36 root - INFO - Data frame has numerical columns:31
+[ 2026-03-11 19:58:47,627 ] 30 root - INFO - Required number of columns:31
+[ 2026-03-11 19:58:47,627 ] 31 root - INFO - Data frame has columns:31
+[ 2026-03-11 19:58:47,627 ] 35 root - INFO - Required number of numerical columns:31
+[ 2026-03-11 19:58:47,627 ] 36 root - INFO - Data frame has numerical columns:31
+[ 2026-03-11 19:58:47,756 ] 24 root - INFO - Data validation is completed
+[ 2026-03-11 19:58:47,757 ] 28 root - INFO - Initiate the data transformation
+[ 2026-03-11 19:58:47,757 ] 49 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-03-11 19:58:47,757 ] 51 root - INFO - Starting data transformation
+[ 2026-03-11 19:58:47,780 ] 66 root - INFO - fit on the train and test data
+[ 2026-03-11 19:58:47,789 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 19:58:47,792 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 19:58:47,792 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 19:58:47,794 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 19:58:47,795 ] 30 root - INFO - Data transformation is completed
+[ 2026-03-11 19:58:47,795 ] 34 root - INFO - Initiate the model trainer
+[ 2026-03-11 20:04:06,968 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 20:04:06,968 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 20:04:06,968 ] 106 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9912831948104601, precision_score=0.9896782027929569, recall_score=0.9928934010152284), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.973800886739218, precision_score=0.967173738991193, recall_score=0.9805194805194806))
+[ 2026-03-11 20:04:06,973 ] 36 root - INFO - Model training completed
+[ 2026-03-11 20:13:31,903 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-11 20:13:31,909 ] 107 dagshub - INFO - Accessing as gopitharunvemuri
+[ 2026-03-11 20:13:33,094 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/gopitharunvemuri/network_security "HTTP/1.1 200 OK"
+[ 2026-03-11 20:13:34,192 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-11 20:13:34,194 ] 107 dagshub - INFO - Initialized MLflow to track repo "gopitharunvemuri/network_security"
+[ 2026-03-11 20:13:34,195 ] 107 dagshub - INFO - Repository gopitharunvemuri/network_security initialized!
+[ 2026-03-11 20:13:34,196 ] 17 root - INFO - Initiate the data ingestion
+[ 2026-03-11 20:13:36,086 ] 56 root - INFO - The data has divided into train and test
+[ 2026-03-11 20:13:36,086 ] 57 root - INFO - The data is saving in respective folders
+[ 2026-03-11 20:13:36,154 ] 63 root - INFO - The data has been saved to respective paths
+[ 2026-03-11 20:13:36,159 ] 22 root - INFO - Initiate the data validation
+[ 2026-03-11 20:13:36,220 ] 30 root - INFO - Required number of columns:31
+[ 2026-03-11 20:13:36,220 ] 31 root - INFO - Data frame has columns:31
+[ 2026-03-11 20:13:36,221 ] 35 root - INFO - Required number of numerical columns:31
+[ 2026-03-11 20:13:36,221 ] 36 root - INFO - Data frame has numerical columns:31
+[ 2026-03-11 20:13:36,221 ] 30 root - INFO - Required number of columns:31
+[ 2026-03-11 20:13:36,221 ] 31 root - INFO - Data frame has columns:31
+[ 2026-03-11 20:13:36,222 ] 35 root - INFO - Required number of numerical columns:31
+[ 2026-03-11 20:13:36,222 ] 36 root - INFO - Data frame has numerical columns:31
+[ 2026-03-11 20:13:36,380 ] 24 root - INFO - Data validation is completed
+[ 2026-03-11 20:13:36,381 ] 28 root - INFO - Initiate the data transformation
+[ 2026-03-11 20:13:36,381 ] 49 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-03-11 20:13:36,381 ] 51 root - INFO - Starting data transformation
+[ 2026-03-11 20:13:36,409 ] 66 root - INFO - fit on the train and test data
+[ 2026-03-11 20:13:36,423 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 20:13:36,425 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 20:13:36,425 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 20:13:36,428 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 20:13:36,428 ] 30 root - INFO - Data transformation is completed
+[ 2026-03-11 20:13:36,429 ] 34 root - INFO - Initiate the model trainer
+[ 2026-03-11 20:17:28,758 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 20:17:28,758 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 20:17:28,758 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-03-11 20:17:28,776 ] 51 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-03-11 20:17:28,776 ] 108 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9918371460243878, precision_score=0.9893445918777644, recall_score=0.9943422913719944), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9695973705834018, precision_score=0.9624796084828712, recall_score=0.9768211920529801))
+[ 2026-03-11 20:17:28,778 ] 36 root - INFO - Model training completed

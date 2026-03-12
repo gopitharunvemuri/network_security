@@ -21,8 +21,6 @@ from network_security.utils.main_utils.utils import save_numpy_array_data, load_
 from network_security.utils.ml_utils.model.estimator import NetworkModel
 from network_security.utils.ml_utils.metrics.classification_metric import get_classification_score
 from network_security.entity.artifact_entity import ClassificationMetricArtifact
-mlflow.set_tracking_uri(uri = "http://localhost:5000/")
-mlflow.set_experiment("my_experiment")
 import dagshub
 dagshub.init(repo_owner='gopitharunvemuri', repo_name='network_security', mlflow=True)
 
@@ -101,6 +99,8 @@ class ModelTrainer:
 
         Network_Model=NetworkModel(preprocessor=preprocessor,model=best_model)
         save_object(self.modeltrainerconfig.trained_model_file_path,obj=NetworkModel)
+
+        save_object("final_model/model.pkl", best_model)
         model_trainer_artifact=ModelTrainerArtifact(trained_model_file_path=self.modeltrainerconfig.trained_model_file_path,
                              train_metric_artifact=classification_train_metric,
                              test_metric_artifact=classification_test_metric
