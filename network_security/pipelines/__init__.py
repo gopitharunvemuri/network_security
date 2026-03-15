@@ -1,0 +1,1 @@
+TRAINING_BUCKET_NAME = "network-security-14"

@@ -10,6 +10,7 @@ class TrainingPipelineConfig:
         self.test_path = training_pipeline.TEST_FILE_NAME
         self.pipeline_name = training_pipeline.PIPELINE_NAME
         self.timestamp = timestamp
+        self.model_dir = os.path.join("final_model")
 
 class DataIngestionConfig:
     def __init__(self, trainingpipelineconfig):
