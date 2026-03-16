@@ -68,7 +68,7 @@ jobs:
 
       - name: Run container
         run: |
-          docker run -d -p 8080:8080 --name networksecurity public.ecr.aws/f2p2m9d3/networksecurity:latest
+          docker run -d -p 8000:8000 --name networksecurity public.ecr.aws/f2p2m9d3/networksecurity:latest
 
       - name: Cleanup unused images
         run: |
