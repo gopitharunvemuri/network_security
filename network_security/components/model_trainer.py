@@ -1,6 +1,6 @@
 import os
 import sys
-import mlflow
+# import mlflow
 from network_security.exception.CustomException import NetworkSecurityException 
 from network_security.logging.logger import logging
 
@@ -32,12 +32,12 @@ class ModelTrainer:
             # mlflow.set_tracking_url(uri = "http://localhost:5000/")
         except Exception as e:
             raise NetworkSecurityException(e, sys)
-    def track_mlflow(self, classification_metric: ClassificationMetricArtifact, bestmodel):
-        with mlflow.start_run():
-            mlflow.log_metric("f1_score", classification_metric.f1_score)
-            mlflow.log_metric("precision", classification_metric.precision_score)
-            mlflow.log_metric("recall", classification_metric.recall_score)
-            mlflow.sklearn.log_model(bestmodel, "model")
+    # def track_mlflow(self, classification_metric: ClassificationMetricArtifact, bestmodel):
+    #     with mlflow.start_run():
+    #         mlflow.log_metric("f1_score", classification_metric.f1_score)
+    #         mlflow.log_metric("precision", classification_metric.precision_score)
+    #         mlflow.log_metric("recall", classification_metric.recall_score)
+    #         mlflow.sklearn.log_model(bestmodel, "model")
         
     def train_model(self, x_train, y_train, x_test, y_test):
         models = {
@@ -87,10 +87,10 @@ class ModelTrainer:
 
         classification_train_metric=get_classification_score(y_true=y_train,y_pred=y_train_pred)
 
-        self.track_mlflow(classification_metric=classification_train_metric, bestmodel=best_model)
+        # self.track_mlflow(classification_metric=classification_train_metric, bestmodel=best_model)
         y_test_pred=best_model.predict(x_test)
         classification_test_metric=get_classification_score(y_true=y_test,y_pred=y_test_pred)
-        self.track_mlflow(classification_metric=classification_test_metric, bestmodel=best_model)
+        # self.track_mlflow(classification_metric=classification_test_metric, bestmodel=best_model)
         
         preprocessor = load_object(file_path=self.datatransformationartifact.transformed_object_file_path)
             
