@@ -57,11 +57,6 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: Login to Public ECR
-        run: |
-          aws ecr-public get-login-password --region us-east-1 \
-          | docker login --username AWS --password-stdin public.ecr.aws
-
       - name: Pull latest image
         run: |
           docker pull public.ecr.aws/f2p2m9d3/networksecurity:latest
@@ -74,3 +69,7 @@ jobs:
       - name: Run container
         run: |
           docker run -d -p 8080:8080 --name networksecurity public.ecr.aws/f2p2m9d3/networksecurity:latest
+
+      - name: Cleanup unused images
+        run: |
+          docker system prune -f
