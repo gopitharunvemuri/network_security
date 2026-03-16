@@ -38,14 +38,14 @@ collection = database[DATA_INGESTION_COLLECTION_NAME]
 async def index():
     return RedirectResponse(url = "/docs")
 
-# @app.get("/train")
-# async def train_route():
-#     try:
-#         training_pipeline = TrainingPipeline()
-#         training_pipeline.run_pipeline()
-#         return Response("Training is successfull")
-#     except Exception as e:
-#         raise NetworkSecurityException(e, sys)
+@app.get("/train")
+async def train_route():
+    try:
+        training_pipeline = TrainingPipeline()
+        training_pipeline.run_pipeline()
+        return Response("Training is successfull")
+    except Exception as e:
+        raise NetworkSecurityException(e, sys)
     
 @app.post("/predict")
 async def predict(request:Request,file: UploadFile = File(...)):

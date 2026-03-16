@@ -21,8 +21,8 @@ from network_security.utils.main_utils.utils import save_numpy_array_data, load_
 from network_security.utils.ml_utils.model.estimator import NetworkModel
 from network_security.utils.ml_utils.metrics.classification_metric import get_classification_score
 from network_security.entity.artifact_entity import ClassificationMetricArtifact
-import dagshub
-dagshub.init(repo_owner='gopitharunvemuri', repo_name='network_security', mlflow=True)
+# import dagshub
+# dagshub.init(repo_owner='gopitharunvemuri', repo_name='network_security', mlflow=True)
 
 class ModelTrainer:
     def __init__(self, datatransformationartifact:DataTransformationArtifact, modeltrainerconfig: ModelTrainerConfig):
